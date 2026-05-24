@@ -1,0 +1,8 @@
+[32mINFO    [0m root:test_home_living_categories.py:85 ========== START TEST: bathroom_accessories ==========
+[32mINFO    [0m root:test_home_living_categories.py:93 ✅ ASSERT PASSED: Title contains 'Myntra' → 'Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+[32mINFO    [0m root:test_home_living_categories.py:101 ✅ ASSERT PASSED: Home & Living nav menu is visible after hover
+[32mINFO    [0m root:test_home_living_categories.py:110 ✅ ASSERT PASSED: Category URL contains 'bathroom-accessories' → https://www.myntra.com/bathroom-accessories
+[32mINFO    [0m root:test_home_living_categories.py:124 Sort dropdown clicked for option: Popularity
+[32mINFO    [0m root:test_home_living_categories.py:130 ✅ ASSERT PASSED: Sort dropdown list is visible
+[32mINFO    [0m root:test_home_living_categories.py:150 ✅ ASSERT PASSED: Sort 'Popularity' applied — page still active at https://www.myntra.com/bathroom-accessories?sort=popularity
+[32mINFO    [0m root:test_home_living_categories.py:244 ========== TEST COMPLETED: bathroom_accessories ==========

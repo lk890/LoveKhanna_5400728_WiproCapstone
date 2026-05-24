@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_home_living_categories.py:85 ========== START TEST: table_lamps ==========
+[32mINFO    [0m root:test_home_living_categories.py:93 ✅ ASSERT PASSED: Title contains 'Myntra' → 'Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+[32mINFO    [0m root:test_home_living_categories.py:101 ✅ ASSERT PASSED: Home & Living nav menu is visible after hover
+[32mINFO    [0m root:test_home_living_categories.py:110 ✅ ASSERT PASSED: Category URL contains 'tablelamp' → https://www.myntra.com/tablelamp
+[32mINFO    [0m root:test_home_living_categories.py:244 ========== TEST COMPLETED: table_lamps ==========

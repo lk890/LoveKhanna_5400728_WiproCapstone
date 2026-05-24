@@ -1,0 +1,8 @@
+[32mINFO    [0m root:test_home_living_categories.py:85 ========== START TEST: door_mats ==========
+[32mINFO    [0m root:test_home_living_categories.py:93 ✅ ASSERT PASSED: Title contains 'Myntra' → 'Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+[32mINFO    [0m root:test_home_living_categories.py:101 ✅ ASSERT PASSED: Home & Living nav menu is visible after hover
+[32mINFO    [0m root:test_home_living_categories.py:110 ✅ ASSERT PASSED: Category URL contains 'doormats' → https://www.myntra.com/doormats
+[32mINFO    [0m root:test_home_living_categories.py:163 ✅ ASSERT PASSED: Brand checkbox 'Aura' found in DOM
+[32mINFO    [0m root:test_home_living_categories.py:178 Brand filter 'Aura' label clicked via JS
+[32mINFO    [0m root:test_home_living_categories.py:188 ✅ ASSERT PASSED: Brand 'Aura' checkbox is now checked/selected
+[32mINFO    [0m root:test_home_living_categories.py:244 ========== TEST COMPLETED: door_mats ==========

@@ -1,0 +1,7 @@
+test_name,category,expected_url,sort_option,brand
+table_lamps,Table Lamps,tablelamp,,
+cups_mugs,Cups and Mugs,cups-and-mugs,Price: High to Low,
+door_mats,Door Mats,doormats,,Aura
+bathroom_accessories,Bathroom Accessories,bathroom-accessories,Popularity,
+organisers_negative,Organisers,organisers,,
+bedsheets_negative,Bedsheets,bedsheets,Invalid Sorting,

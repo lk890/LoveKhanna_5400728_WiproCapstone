@@ -1,0 +1,44 @@
+[32mINFO    [0m root:test_home_decor_e2e.py:90 ========== PYTEST E2E STARTED ==========
+[32mINFO    [0m root:test_home_decor_e2e.py:93 Opening Myntra website
+[32mINFO    [0m root:test_home_decor_e2e.py:99 ✅ ASSERT PASSED: Page title contains 'Myntra' → 'Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+[32mINFO    [0m root:test_home_decor_e2e.py:104 Hovering on Home & Living menu
+[32mINFO    [0m root:test_home_decor_e2e.py:113 ✅ ASSERT PASSED: 'Aromas & Candles' submenu item is visible in dropdown
+[32mINFO    [0m root:test_home_decor_e2e.py:117 Selecting Aromas & Candles category
+[32mINFO    [0m root:test_home_decor_e2e.py:130 ✅ ASSERT PASSED: Category URL contains expected keyword → 'https://www.myntra.com/aroma-oil-diffusers-aroma-oils-air-freshener-handheld-air-fresheners-home-fragrances-home-fragrance-set-candles'
+[32mINFO    [0m root:test_home_decor_e2e.py:140 ✅ ASSERT PASSED: Page <h1> heading contains expected keyword → 'Aroma Oil Diffusers Oils Air Freshener Handheld Fresheners Home Fragrances Fragrance Set Candles'
+[32mINFO    [0m root:test_home_decor_e2e.py:147 Opening first product
+[32mINFO    [0m root:test_home_decor_e2e.py:152 ✅ ASSERT PASSED: New product tab opened → total tabs: 2
+[32mINFO    [0m root:test_home_decor_e2e.py:154 Switching to product tab
+[32mINFO    [0m root:test_home_decor_e2e.py:164 ✅ ASSERT PASSED: 'Add to Bag' button is visible and clickable on product page
+[32mINFO    [0m root:test_home_decor_e2e.py:168 Adding product to bag
+[1m[31mERROR   [0m root:test_home_decor_e2e.py:263 TEST FAILED: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=148.0.7778.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff603c37de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff603c37e50+14900]
+	chromedriver!(No symbol) [0x7ff60399d5ad]
+	chromedriver!(No symbol) [0x7ff6039890e0]
+	chromedriver!(No symbol) [0x7ff60398903c]
+	chromedriver!(No symbol) [0x7ff603987899]
+	chromedriver!(No symbol) [0x7ff60398844f]
+	chromedriver!(No symbol) [0x7ff6039a2ea6]
+	chromedriver!(No symbol) [0x7ff6039a39eb]
+	chromedriver!(No symbol) [0x7ff6039a85e5]
+	chromedriver!(No symbol) [0x7ff6039a86af]
+	chromedriver!(No symbol) [0x7ff6039f6f9e]
+	chromedriver!(No symbol) [0x7ff6039f7b2c]
+	chromedriver!(No symbol) [0x7ff603a47d17]
+	chromedriver!(No symbol) [0x7ff603a4486f]
+	chromedriver!(No symbol) [0x7ff6039e9df8]
+	chromedriver!(No symbol) [0x7ff6039eace3]
+	chromedriver!GetHandleVerifier [0x7ff603f4cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff603f47375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff603f6bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff603c56045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff603c5ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff603c41bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff603c41d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff603c260e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff90e52e957+17]
+	ntdll!RtlUserThreadStart [0x7ff91012427c+2c]

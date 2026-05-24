@@ -1,0 +1,8 @@
+[32mINFO    [0m root:test_home_living_categories.py:85 ========== START TEST: organisers_negative ==========
+[32mINFO    [0m root:test_home_living_categories.py:93 ✅ ASSERT PASSED: Title contains 'Myntra' → 'Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+[32mINFO    [0m root:test_home_living_categories.py:101 ✅ ASSERT PASSED: Home & Living nav menu is visible after hover
+[32mINFO    [0m root:test_home_living_categories.py:110 ✅ ASSERT PASSED: Category URL contains 'organisers' → https://www.myntra.com/organisers
+[32mINFO    [0m root:test_home_living_categories.py:224 Checking absence of invalid filters on organisers page
+[32mINFO    [0m root:test_home_living_categories.py:233 ✅ ASSERT PASSED: 'Bed Size' filter correctly absent
+[32mINFO    [0m root:test_home_living_categories.py:242 ✅ ASSERT PASSED: 'Small' filter option correctly absent
+[32mINFO    [0m root:test_home_living_categories.py:244 ========== TEST COMPLETED: organisers_negative ==========

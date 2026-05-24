@@ -1,0 +1,5 @@
+{
+  "valid_product": "candles",
+  "invalid_product": "xyz123",
+  "category": "home decor"
+}

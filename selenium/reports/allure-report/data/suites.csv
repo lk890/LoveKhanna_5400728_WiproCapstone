@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13504","test_dynamic_categories[row2]","tests","2026-05-21","passed","2026-05-21","","test_home_living_categories","",""
+"","10158","test_dynamic_categories[row3]","tests","2026-05-21","passed","2026-05-21","","test_home_living_categories","",""
+"","22027","test_dynamic_categories[row5]","tests","2026-05-21","passed","2026-05-21","","test_home_living_categories","",""
+"","83312","test_home_decor_e2e","tests","2026-05-21","passed","2026-05-21","","test_home_decor_e2e","",""
+"","34271","test_dynamic_categories[row4]","tests","2026-05-21","passed","2026-05-21","","test_home_living_categories","",""
+"","11834","test_dynamic_categories[row1]","tests","2026-05-21","passed","2026-05-21","","test_home_living_categories","",""
+"","7392","test_dynamic_categories[row0]","tests","2026-05-21","passed","2026-05-21","","test_home_living_categories","",""

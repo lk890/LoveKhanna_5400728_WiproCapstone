@@ -1,0 +1,7 @@
+{
+  "base_url": "https://www.myntra.com",
+  "browser": "chrome",
+  "implicit_wait": 10,
+  "headless": false,
+  "report_path": "reports/report.html"
+}

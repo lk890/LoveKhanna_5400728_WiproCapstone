@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","20284","Validate category navigation - bathroom_accessories -- @1.4 ","","2026-05-24","passed","2026-05-24","","","",""
+"","12880","Validate category navigation - table_lamps -- @1.1 ","","2026-05-24","passed","2026-05-24","","","",""
+"","91606","User buys Aromas & Candles product successfully","","2026-05-24","passed","2026-05-24","","","",""
+"","29763","Negative - Invalid filters must not exist on Organisers page","","2026-05-24","passed","2026-05-24","","","",""
+"","24228","Negative - Invalid sort option must not exist on Bedsheets page","","2026-05-24","passed","2026-05-24","","","",""
+"","14623","Validate category navigation - cups_mugs -- @1.2 ","","2026-05-24","passed","2026-05-24","","","",""
+"","7736","Validate category navigation - door_mats -- @1.3 ","","2026-05-24","broken","2026-05-24","","","",""

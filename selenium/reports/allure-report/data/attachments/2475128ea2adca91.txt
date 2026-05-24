@@ -1,0 +1,20 @@
+[32mINFO    [0m root:test_home_living_categories.py:85 ========== START TEST: cups_mugs ==========
+[1m[31mERROR   [0m root:test_home_living_categories.py:247 TEST FAILED: cups_mugs | Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff603c37de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff603c37e50+14900]
+	chromedriver!(No symbol) [0x7ff60399d396]
+	chromedriver!(No symbol) [0x7ff6039e8e76]
+	chromedriver!(No symbol) [0x7ff603a1ff62]
+	chromedriver!(No symbol) [0x7ff603a19d7f]
+	chromedriver!(No symbol) [0x7ff603a19543]
+	chromedriver!(No symbol) [0x7ff603966325]
+	chromedriver!GetHandleVerifier [0x7ff603f4cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff603f47375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff603f6bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff603c56045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff603c5ecec+3b79c]
+	chromedriver!(No symbol) [0x7ff6039650bc]
+	chromedriver!GetHandleVerifier [0x7ff6040b0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ff90e52e957+17]
+	ntdll!RtlUserThreadStart [0x7ff91012427c+2c]

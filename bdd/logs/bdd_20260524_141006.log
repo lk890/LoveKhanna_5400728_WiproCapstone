@@ -1,0 +1,59 @@
+2026-05-24 14:10:06,723 | INFO | ========== START: User buys Aromas & Candles product successfully ==========
+2026-05-24 14:10:43,928 | INFO | Entering mobile: 9760076422
+2026-05-24 14:10:45,006 | INFO | First Continue clicked — waiting for timer screen
+2026-05-24 14:10:45,038 | INFO | Timer screen detected. URL: https://www.myntra.com/login?referer=/checkout/cart
+2026-05-24 14:10:45,044 | INFO | Timer screen confirmed — waiting 32 seconds
+2026-05-24 14:11:17,054 | INFO | 32 seconds done — clicking Continue again
+2026-05-24 14:11:17,215 | INFO | Second Continue clicked — OTP screen is now visible, waiting for manual entry
+2026-05-24 14:11:17,261 | INFO | OTP screen active. Current URL: https://www.myntra.com/login?referer=/checkout/cart
+2026-05-24 14:11:17,261 | INFO | Waiting for manual OTP entry — up to 10 minutes...
+2026-05-24 14:11:32,707 | INFO | OTP accepted — redirected to: https://www.myntra.com/checkout/cart?loggedIn=true
+2026-05-24 14:11:34,656 | INFO | Cart contains 5 item(s)
+2026-05-24 14:11:34,656 | INFO | SCENARIO PASSED: User buys Aromas & Candles product successfully
+2026-05-24 14:11:38,324 | INFO | ========== END: User buys Aromas & Candles product successfully ==========
+2026-05-24 14:11:38,349 | INFO | ========== START: Validate category navigation - table_lamps -- @1.1  ==========
+2026-05-24 14:11:42,561 | INFO | [PASS] ASSERT PASSED: Title contains 'Myntra' -> 'Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-05-24 14:11:44,729 | INFO | [PASS] ASSERT PASSED: Home & Living nav menu is visible after hover
+2026-05-24 14:11:48,112 | INFO | [PASS] ASSERT PASSED: Category URL contains 'tablelamp' -> https://www.myntra.com/tablelamp
+2026-05-24 14:11:48,120 | INFO | SCENARIO PASSED: Validate category navigation - table_lamps -- @1.1 
+2026-05-24 14:11:51,222 | INFO | ========== END: Validate category navigation - table_lamps -- @1.1  ==========
+2026-05-24 14:11:51,267 | INFO | ========== START: Validate category navigation - cups_mugs -- @1.2  ==========
+2026-05-24 14:11:57,238 | INFO | [PASS] ASSERT PASSED: Title contains 'Myntra' -> 'Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-05-24 14:11:58,727 | INFO | [PASS] ASSERT PASSED: Home & Living nav menu is visible after hover
+2026-05-24 14:12:02,088 | INFO | [PASS] ASSERT PASSED: Category URL contains 'cups-and-mugs' -> https://www.myntra.com/cups-and-mugs
+2026-05-24 14:12:02,495 | INFO | Sort dropdown clicked for option: Price: High to Low
+2026-05-24 14:12:02,590 | INFO | [PASS] ASSERT PASSED: Sort dropdown list is visible
+2026-05-24 14:12:02,975 | INFO | [PASS] ASSERT PASSED: Sort 'Price: High to Low' applied -- page still active at https://www.myntra.com/cups-and-mugs?sort=price_desc
+2026-05-24 14:12:02,978 | INFO | SCENARIO PASSED: Validate category navigation - cups_mugs -- @1.2 
+2026-05-24 14:12:05,881 | INFO | ========== END: Validate category navigation - cups_mugs -- @1.2  ==========
+2026-05-24 14:12:05,889 | INFO | ========== START: Validate category navigation - door_mats -- @1.3  ==========
+2026-05-24 14:12:11,016 | INFO | SCENARIO PASSED: Validate category navigation - door_mats -- @1.3 
+2026-05-24 14:12:13,617 | INFO | ========== END: Validate category navigation - door_mats -- @1.3  ==========
+2026-05-24 14:12:13,635 | INFO | ========== START: Validate category navigation - bathroom_accessories -- @1.4  ==========
+2026-05-24 14:12:20,065 | INFO | [PASS] ASSERT PASSED: Title contains 'Myntra' -> 'Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-05-24 14:12:21,658 | INFO | [PASS] ASSERT PASSED: Home & Living nav menu is visible after hover
+2026-05-24 14:12:28,714 | INFO | [PASS] ASSERT PASSED: Category URL contains 'bathroom-accessories' -> https://www.myntra.com/bathroom-accessories
+2026-05-24 14:12:29,577 | INFO | Sort dropdown clicked for option: Popularity
+2026-05-24 14:12:29,893 | INFO | [PASS] ASSERT PASSED: Sort dropdown list is visible
+2026-05-24 14:12:30,851 | INFO | [PASS] ASSERT PASSED: Sort 'Popularity' applied -- page still active at https://www.myntra.com/bathroom-accessories?sort=popularity
+2026-05-24 14:12:30,858 | INFO | SCENARIO PASSED: Validate category navigation - bathroom_accessories -- @1.4 
+2026-05-24 14:12:33,912 | INFO | ========== END: Validate category navigation - bathroom_accessories -- @1.4  ==========
+2026-05-24 14:12:33,920 | INFO | ========== START: Negative - Invalid sort option must not exist on Bedsheets page ==========
+2026-05-24 14:12:40,128 | INFO | [PASS] ASSERT PASSED: Title contains 'Myntra' -> 'Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-05-24 14:12:41,606 | INFO | [PASS] ASSERT PASSED: Home & Living nav menu is visible after hover
+2026-05-24 14:12:45,305 | INFO | [PASS] ASSERT PASSED: Category URL contains 'bedsheets' -> https://www.myntra.com/bedsheets
+2026-05-24 14:12:45,757 | INFO | Sort dropdown opened for negative check
+2026-05-24 14:12:46,160 | INFO | [SS] Screenshot saved: bedsheets_negative_sort_dropdown_open
+2026-05-24 14:12:54,758 | INFO | [PASS] ASSERT PASSED: Invalid sort option 'free' correctly absent from dropdown
+2026-05-24 14:12:54,764 | INFO | SCENARIO PASSED: Negative - Invalid sort option must not exist on Bedsheets page
+2026-05-24 14:12:58,145 | INFO | ========== END: Negative - Invalid sort option must not exist on Bedsheets page ==========
+2026-05-24 14:12:58,157 | INFO | ========== START: Negative - Invalid filters must not exist on Organisers page ==========
+2026-05-24 14:13:02,775 | INFO | [PASS] ASSERT PASSED: Title contains 'Myntra' -> 'Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-05-24 14:13:04,265 | INFO | [PASS] ASSERT PASSED: Home & Living nav menu is visible after hover
+2026-05-24 14:13:07,630 | INFO | [PASS] ASSERT PASSED: Category URL contains 'organisers' -> https://www.myntra.com/organisers
+2026-05-24 14:13:10,637 | INFO | Checking absence of invalid filters on organisers page
+2026-05-24 14:13:14,280 | INFO | [SS] Screenshot saved: organisers_negative_invalid_filters_attempt
+2026-05-24 14:13:19,604 | INFO | [PASS] ASSERT PASSED: 'Bed Size' filter correctly absent
+2026-05-24 14:13:25,082 | INFO | [PASS] ASSERT PASSED: 'Small' filter option correctly absent
+2026-05-24 14:13:25,084 | INFO | SCENARIO PASSED: Negative - Invalid filters must not exist on Organisers page
+2026-05-24 14:13:27,916 | INFO | ========== END: Negative - Invalid filters must not exist on Organisers page ==========

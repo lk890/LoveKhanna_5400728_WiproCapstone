@@ -1,0 +1,25 @@
+[32mINFO    [0m root:test_home_decor_e2e.py:90 ========== PYTEST E2E STARTED ==========
+[32mINFO    [0m root:test_home_decor_e2e.py:93 Opening Myntra website
+[32mINFO    [0m root:test_home_decor_e2e.py:99 ✅ ASSERT PASSED: Page title contains 'Myntra' → 'Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+[32mINFO    [0m root:test_home_decor_e2e.py:104 Hovering on Home & Living menu
+[32mINFO    [0m root:test_home_decor_e2e.py:113 ✅ ASSERT PASSED: 'Aromas & Candles' submenu item is visible in dropdown
+[32mINFO    [0m root:test_home_decor_e2e.py:117 Selecting Aromas & Candles category
+[32mINFO    [0m root:test_home_decor_e2e.py:130 ✅ ASSERT PASSED: Category URL contains expected keyword → 'https://www.myntra.com/aroma-oil-diffusers-aroma-oils-air-freshener-handheld-air-fresheners-home-fragrances-home-fragrance-set-candles'
+[32mINFO    [0m root:test_home_decor_e2e.py:140 ✅ ASSERT PASSED: Page <h1> heading contains expected keyword → 'Aroma Oil Diffusers Oils Air Freshener Handheld Fresheners Home Fragrances Fragrance Set Candles'
+[32mINFO    [0m root:test_home_decor_e2e.py:147 Opening first product
+[32mINFO    [0m root:test_home_decor_e2e.py:152 ✅ ASSERT PASSED: New product tab opened → total tabs: 2
+[32mINFO    [0m root:test_home_decor_e2e.py:154 Switching to product tab
+[32mINFO    [0m root:test_home_decor_e2e.py:164 ✅ ASSERT PASSED: 'Add to Bag' button is visible and clickable on product page
+[32mINFO    [0m root:test_home_decor_e2e.py:168 Adding product to bag
+[32mINFO    [0m root:test_home_decor_e2e.py:179 Bag count indicator not found; continuing
+[32mINFO    [0m root:test_home_decor_e2e.py:182 Opening shopping bag
+[32mINFO    [0m root:test_home_decor_e2e.py:187 Verifying product in cart
+[32mINFO    [0m root:test_home_decor_e2e.py:196 ✅ ASSERT PASSED: Product is present in shopping cart
+[32mINFO    [0m root:test_home_decor_e2e.py:199 Clicking PLACE ORDER
+[32mINFO    [0m root:test_home_decor_e2e.py:207 ✅ ASSERT PASSED: Redirected to Login/Checkout page → 'https://www.myntra.com/login?referer=/checkout/cart'
+[32mINFO    [0m root:test_home_decor_e2e.py:212 Entering mobile number
+[32mINFO    [0m root:test_home_decor_e2e.py:222 Waiting for OTP flow (manual step – up to 30 s)
+[32mINFO    [0m root:test_home_decor_e2e.py:230 ✅ ASSERT PASSED: Second CONTINUE button found and clicked after OTP
+[32mINFO    [0m root:test_home_decor_e2e.py:245 ✅ ASSERT PASSED: OTP completed, redirected to checkout/cart → 'https://www.myntra.com/checkout/cart?loggedIn=true'
+[32mINFO    [0m root:test_home_decor_e2e.py:258 ✅ ASSERT PASSED: Final cart contains 4 product(s) after login
+[32mINFO    [0m root:test_home_decor_e2e.py:260 ========== TEST PASSED ==========
